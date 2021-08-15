@@ -1,0 +1,101 @@
+/*  ######################### NAV BAR ################### */
+#navbar  {
+    padding: 450px 0;
+}
+
+#navbar .layer {
+    padding-bottom: 900px;
+}
+
+#navbar .layer .header-items ul li {
+    float: none;
+    text-align: center;
+}
+
+.layer h1 {
+    font-size: 3rem;
+}
+
+.layer p {
+    width: auto;
+}
+
+.layer .wave {
+    display: none;
+}
+
+
+/*  ######################### SERVICES ################### */
+#services {
+    width: 100%;
+}
+
+#services .container {
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#services h1,
+#services p {
+    margin-left: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+#services .container .box .img1,
+#services .container .box .img2,
+#services .container .box .img3 {
+    border-radius: 0;
+    width: auto;
+}
+
+
+/*  ######################### ABOUT US ################### */
+#about {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vh;
+    margin-top: 5vh;
+}
+
+#about .about-img {
+    display: none;
+}
+
+/*  ######################### SEE OUR VIDEO ################### */
+#see-video {
+    margin-top: 10rem;
+    height: 90vh;
+}
+
+#see-video .wave-top {
+    display: none;
+}
+
+#see-video .video-layer {
+    justify-content: space-around;
+}
+
+#see-video .wave-bot {
+    display: none;
+}
+
+#see-video .video-layer h1 {
+    margin-top: 2rem;
+    font-size: 3rem;
+}
+
+#see-video .video-layer p {
+    width: 90%;
+}
+
+#see-video .video-layer a {
+    margin-top: -5vh;
+}
+
+
+
+@media (max-width: 360px) {
+    #navbar  {
+        height: 150vh;
+    }
+}

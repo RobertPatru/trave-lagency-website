@@ -1,0 +1,63 @@
+/*  ######################### NAV BAR ################### */
+#navbar  {
+        height: 600px;
+}
+
+#navbar .layer {
+    height: 600px;
+}
+
+.layer .wave {
+    display: none;
+}
+
+
+/*  ######################### SERVICES ################### */
+#services {
+    width: 100%;
+}
+
+#services .container {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#services h1,
+#services p {
+    margin-left: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+#services .container .box .img1,
+#services .container .box .img2,
+#services .container .box .img3 {
+    border-radius: 0;
+    width: auto;
+}
+
+/*  ######################### SEE OUR VIDEO ################### */
+#see-video {
+    height: 120vh;
+}
+
+#see-video .wave-top {
+    display: none;
+}
+
+#see-video .video-layer {
+    justify-content: space-around;
+}
+
+#see-video .wave-bot {
+    display: none;
+}
+
+#see-video .video-layer h1 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.2rem;
+    font-size: 3rem;
+}
+
+#see-video .video-layer a {
+    margin-bottom: 0.5rem;
+}

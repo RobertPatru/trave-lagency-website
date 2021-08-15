@@ -1,0 +1,309 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*  ######################### Top part of the website ################### */
+
+#navbar {
+    background: url("/img/logo3.jpg") no-repeat center center/cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+}
+
+/* Black layer over the backgroud */
+#navbar .layer {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#navbar .layer .header-text {
+    color: white;
+    font-family: 'Nova Round', cursive;
+    font-weight: bold;
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+#navbar .layer .header-items li {
+    float: left;
+    list-style: none;
+    padding: 1.5rem 2rem;
+    font-size: 1.5rem;
+ 
+}
+
+#navbar .layer .header-items li a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-items li {
+    padding: 1rem;
+}
+
+.layer h1 {
+    color: white;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    font-family: 'Nova Round', cursive;
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+.layer p {
+    color: white;
+    width: 700px;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.layer .btn {
+    text-decoration: none;
+    color: black;
+    background: white;
+    padding: 0.80rem 3rem;
+    border-radius: 20px;
+}
+
+.layer .btn:hover {
+    color: white;
+    background: #2b0988;
+}
+
+.layer .wave {
+    background: url("/img/wave2.jpg") no-repeat left top;
+    width: 100%;
+    height: 400px;
+}
+
+/*  ######################### END OF Top part of the website ################### */
+
+/*  ######################### SERVICES ################### */
+#services {
+    margin: 7rem auto;
+    width: 75vw;
+}
+
+#services h1 {
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 1000;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 1.25rem;
+}
+
+#services p {
+    margin-bottom: 5rem;
+}
+
+/* ###################################### IMAGE SECTION */
+#services .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#services .container .box {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#services .container .box .img1 {
+    background: url("/img/box1.jpg") no-repeat center center/cover;
+    width: 21.875rem;
+    height: 25rem;
+}
+
+#services .container .box .img2 {
+    background: url("/img/box2.jpg") no-repeat center center/cover;
+    width: 21.875rem;
+    height: 25rem;
+}
+
+#services .container .box .img3 {
+    background: url("/img/box3.jpg") no-repeat center center/cover;
+    width: 21.875rem;
+    height: 25rem;
+}
+
+#services .container .box .border {
+    border-radius: 1rem;
+}
+
+#services .container .box a {
+   display: inline-block;
+
+   font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 2rem;
+    text-decoration: none;
+    color: white;
+    background: #2b0988;
+    font-weight: 1000;
+
+    padding: 0.80rem 3rem;
+    border-radius: 20px;
+}
+
+#services .container .box a:hover {
+    color: white;
+    background: black;
+}
+
+#services .container .box .black-btn {
+    display: inline-block;
+
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 1000;
+    margin-top: 2rem;
+    text-decoration: none;
+    color: white;
+    background: black;
+
+    padding: 0.80rem 3rem;
+    border-radius: 20px;
+}
+
+#services .container .box .black-btn:hover {
+    color: white;
+    background: #2b0988;
+}
+
+
+
+<!-- /*  ######################### About US Section ################### */ -->
+
+#about {
+    display: flex;
+    margin: 0 auto;
+    margin-left: 15vh;
+    margin-top: 25vh;
+}
+
+#about .text {
+    flex: 1;
+    margin-top: 5rem;
+}
+
+#about .text p {
+    margin-right: 5rem;
+}
+
+#about .text h1 {
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 1000;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 3.25rem;
+}
+
+#about .text a {
+    display: inline-block;
+
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 1000;
+    margin-top: 2rem;
+    text-decoration: none;
+    color: white;
+    background: black;
+
+    padding: 0.80rem 3rem;
+    border-radius: 20px;
+}
+
+#about .about-img {
+    background: url("/img/about-img2.jpg") no-repeat center center/cover;
+    height:35.5rem;
+    width: 36.9rem;
+    flex: 1;
+    margin-right: 2vh;
+}
+
+
+
+/* <!-- /*  ######################### SEE OU VIDEO ################### */ --> 
+
+#see-video {
+    background: url("/img/seeourvideo1.jpg") no-repeat center center/cover;
+    margin: 10rem 0;
+    height: 110vh;
+}
+
+#see-video .video-layer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+
+    background-color: rgba(0, 0, 0, 0.3);
+   
+    width: 100%;
+    height: 100%;
+}
+
+#see-video .wave-top {
+    background: url("/img/wave4.jpg") no-repeat center center/cover;
+    width: 35vw;
+    height: 20vh;
+    border-top: white 1px solid;
+
+    align-self: flex-start;
+}
+
+#see-video .wave-bot {
+    background: url("/img/wave6.jpg") no-repeat center center/cover;
+    width: 35vw;
+    height: 20vh;
+    /* margin-left: 63.9vw;
+    margin-top: 59vh; */
+
+    align-self: flex-end;
+}
+
+#see-video .video-layer h1 {
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: -3.25rem;
+}
+
+#see-video .video-layer p {
+    color: white;
+    width: 60vw;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+
+#see-video .video-layer a {
+
+    display: inline-block;
+
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 2rem;
+    text-decoration: none;
+    color: white;
+    background: #2b0988;
+    font-weight: 1000;
+ 
+    padding: 3rem;
+    border-radius: 50%;
+
+    box-shadow: 0 0 3px 20px rgba(255, 255, 255, 0.7);
+}
+
+#see-video .video-layer a:hover {
+    color: white;
+    background: #2b0988;
+}
